@@ -1,0 +1,17 @@
+{
+  "type": "module",
+  "dependencies": {
+    "@aztec/accounts": "2.0.2",
+    "@aztec/aztec.js": "2.0.2"
+  },
+  "scripts": {
+    "deploy": "tsx deploy.ts",
+    "interact": "tsx interact.ts",
+    "connect": "tsx connect.ts"
+  },
+  "devDependencies": {
+    "@types/node": "^24.6.2",
+    "tsx": "^4.20.6",
+    "typescript": "^5.9.3"
+  }
+}
